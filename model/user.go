@@ -7,7 +7,7 @@ type User struct {
 	Email     string    `json:"email" gorm:"unique"`
 	Password  string    `json:"password"`
 	CreatedAt time.Time `json:"created_at"`
-	UpdateAt  time.Time `json:"update_at"`
+	UpdatedAt time.Time `json:"updated_at"`
 }
 
 type UserResponse struct {
