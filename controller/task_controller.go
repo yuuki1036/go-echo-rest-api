@@ -7,7 +7,7 @@ import (
 	"go-echo-rest-api/model"
 	"go-echo-rest-api/usecase"
 
-	"github.com/golang-jwt/jwt/v4"
+	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
 )
 
